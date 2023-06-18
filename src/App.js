@@ -20,6 +20,7 @@ const App = () => {
   return (
     <div>
       <h1>Users</h1>
+      <h4>Refresh if records don't show up sometimes. Idk why that happens lol.</h4>
       <table>
         <thead>
           <tr>
