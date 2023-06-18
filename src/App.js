@@ -1,7 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import ClientTable from './App';
+import ClientTable from './ClientTable';
 
-ReactDOM.render(<ClientTable />, document.getElementById('root'));
+const App = () => {
+  return (
+    <div>
+      <ClientTable />
+    </div>
+  );
+};
 
 export default App;
